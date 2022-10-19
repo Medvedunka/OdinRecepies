@@ -1,0 +1,104 @@
+html{
+    background-color: blanchedalmond;
+}
+
+#middle{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 40px;}
+
+#underline1{
+    text-align: center;
+    margin-top: -14cm;
+    width: 100%;
+    
+}
+
+#projectBy  {
+    display: block;
+    color: black;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+#descriptionContainer   {
+    position: absolute;
+    border: 0.25vw dotted black;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 2%;
+    right: 50%;
+    transform: translate(50%);
+    width: 40%;
+}
+
+#gifContainer   {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 15em;
+}
+
+#gif{
+    margin-bottom: -0.0.3em;
+    display: block;
+    width: 30vw
+    padding 0;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 1em;
+}
+
+#header{
+    font-size: 1em;
+    margin-left: 50em;
+    margin-right: 50em;
+    border-radius: 1em;
+    color: black;
+}
+
+#TOP{
+    margin: 0.5vw 0;
+    width: 17vw;
+    display: block;
+    transform: translateX(1.5%)
+}
+#topRight{
+    position: absolute; right: 80px; top: 100px;
+    border: 0.3em solid black;
+    box-sizing: content-box;
+    line-height: 0%;
+}
+
+#topLeft{
+    position:absolute; left:80px; top:100px;
+    border: 0.3em solid black;
+    padding: 0px;
+    margin: auto;
+    line-height: 0%;
+}
+
+#bottomRight{
+    position: absolute; right: 80px; bottom: 100px;
+    border: 0.3em solid black;
+    line-height: 0%;
+}
+
+#bottomLeft{
+    position:absolute; left:80px; bottom:100px;
+    border: 0.3em solid black;
+    line-height: 0%;
+}

@@ -1,0 +1,85 @@
+html   {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+body   {
+    margin: 0;
+   background-color: bisque;
+   color: aliceblue;
+}
+.imageLink {
+    display: flex;
+    justify-content: center;
+}
+img{
+    border: 8px double whitesmoke;
+    border-radius: 50%
+    width 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -15%;
+
+
+}
+.container  {
+    position: relative;
+    border: 0.5em double white;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 1em;
+    width: 45em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    background:rgb(92, 92, 92);
+}
+.column1{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+.column2{
+    margin-right: 20%;
+}
+
+.RecipeName{
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 10em;
+    margin-right: 10em; 
+    font-size: large;
+}
+
+.ingredientsText{
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-size: large;
+}
+
+
+.IntructionsText{
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 10em;
+    margin-right: 10em; 
+    font-size: large;
+}
+
+.NutritionInformation{
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 10em;
+    margin-right: 10em; 
+    font-size: large;
+}
+
+#ul li{
+    display: inline;
+    
+}
